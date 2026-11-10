@@ -6,7 +6,7 @@ RoomPadi matches people who need to share accommodation by how they actually liv
 
 ## Website
 
-The website is in [`website/`](website/) and uses plain HTML, CSS and JavaScript, with no build step. Open `website/index.html` in a browser to run it.
+The website uses plain HTML, CSS and JavaScript, with no build step. Open `index.html` in a browser to run it, or deploy the repository root as a static site. On Render, use a **Static Site** with an empty build command and `.` as the publish directory.
 
 What's included:
 
@@ -21,5 +21,5 @@ What's included:
 
 - There's no backend yet. Accounts, quiz answers and chats are stored in the visitor's browser (`localStorage`).
 - SMS isn't connected, so the verification code is shown on screen.
-- The 12 profiles are samples. Their photos are from [Pexels](https://www.pexels.com/license/), and the sources are listed in `website/assets/people/credits.json`. Replace them with real members before launch.
+- The 12 profiles are samples. Their photos are from [Pexels](https://www.pexels.com/license/), and the sources are listed in `assets/people/credits.json`. Replace them with real members before launch.
 - `hello@roompadi.ng` is a placeholder contact address.
